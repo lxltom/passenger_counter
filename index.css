@@ -1,0 +1,78 @@
+body {
+  background: url(train.jpg) rgba(183, 208, 195, 0.5);
+  background-size: cover;
+  font-family: Arial, sans-serif, open-sans, helvetica, helvetica neue;
+  text-align: center;
+  height: 100vh;
+}
+.container {
+  background: white;
+  opacity: 0.8;
+  max-width: 80%;
+  height: 90vh;
+  margin: auto;
+  border: 2px solid #1abc9c;
+  border-radius: 10px;
+
+}
+
+h1 {
+  color: rgba(201, 1, 120, 0.87);
+  margin-top: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+h2 {
+  color: #1abc9c;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  opacity: 0.9;
+}
+
+h3#count-el {
+    color: #0de1b4;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+    opacity: 0.9;
+}
+
+button#increment-btn {
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 200px;
+  display: block;
+  margin: 35px auto;
+}
+
+button#save-btn {
+  background-color: #de3f4f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 200px;
+  display: block;
+  margin: 10px auto;
+}
+
+p {
+  color: #de3f4f;
+  font-weight: bold;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 30px;
+  opacity: 0.9;
+}
